@@ -1,0 +1,19 @@
+label{
+    cursor:pointer;
+}
+iframe{
+    height: 16rem;
+    width: 100%;
+    background-color: #fff;
+}
+
+/* Responsive Design */
+@media screen and (width < 500px) {
+    .main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .col{
+        flex: auto;
+    }
+}
